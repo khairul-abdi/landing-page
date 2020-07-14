@@ -2,8 +2,11 @@
 
 ## [LIVE DEMO](https://weekend-frontend.herokuapp.com/)
 
-### Delivery
-  <!-- ![alt text](https://github.com/khairul-abdi/deliveryApp/blob/master/src/assets/img-screenshot/1.png) -->
+### Dekstop
+  ![alt text](https://github.com/khairul-abdi/landing-page/blob/master/src/assets/screenshot/dekstop.png)
+
+### Mobile
+  ![alt text](https://github.com/khairul-abdi/landing-page/blob/master/src/assets/screenshot/mobile.png)
 
 
 ## Project setup

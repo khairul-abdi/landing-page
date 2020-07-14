@@ -38,10 +38,10 @@
         <div
           v-for="item in items"
           ref="item"
+          :key="item.id"
           class="vhl-item"
           :class="_options.item.class"
           :style="_style.item"
-          :key="item"
         >
           <slot v-bind:item="item">{{ item }}</slot>
         </div>

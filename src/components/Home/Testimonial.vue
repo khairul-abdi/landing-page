@@ -8,8 +8,8 @@
                            :options="{responsive: [{end: 576, size: 1}, {start: 576, end: 768, size: 2},{size: 3}]}">
               <template v-slot:default="{item}">
               <div class="item">
-                <p class="title-testi">{{item.title}}</p>
-                <p class="content-testi">{{item.content}}</p>
+                <p class="title-testi">{{item.by}}</p>
+                <p class="content-testi">{{item.testimony}}</p>
               </div>
             </template>
           </vue-horizontal-list>
@@ -22,6 +22,7 @@
 <script>
 import Vue from 'vue'
 import VueHorizontalList from './vue-horizontal-list.vue'
+import axios from 'axios'
 
 export default Vue.extend({
   name: 'Testimonial',
@@ -30,16 +31,26 @@ export default Vue.extend({
   },
   data () {
     return {
-      items: [
-        { title: 'Arron', content: 'couldn\'t have asked for more than this. I wish I would have thought of it first. This is simply unbelievable!' },
-        { title: 'Kelsey', content: 'Wow what great service, I love it! Without WEEKEND, we would have gone by now. You guys rock' },
-        { title: 'SoYoung', content: 'Unless you have a truly unique product, it will be very hard to differentiate and gain brand traction' },
-        { title: 'Steven', content: 'I wish I would have thought of it first.' },
-        { title: 'Charley', content: 'Content item with description' },
-        { title: 'Vanessa', content: 'This is unbelievable. After using WEEKEND my business skyrocketed!' },
-        { title: 'Vanessa', content: 'This is unbelievable. After using WEEKEND my business skyrocketed!' }
-      ]
+      // items: [
+      //   { title: 'Arron', content: 'couldn\'t have asked for more than this. I wish I would have thought of it first. This is simply unbelievable!' },
+      //   { title: 'Kelsey', content: 'Wow what great service, I love it! Without WEEKEND, we would have gone by now. You guys rock' },
+      //   { title: 'SoYoung', content: 'Unless you have a truly unique product, it will be very hard to differentiate and gain brand traction' },
+      //   { title: 'Steven', content: 'I wish I would have thought of it first.' },
+      //   { title: 'Charley', content: 'Content item with description' },
+      //   { title: 'Vanessa', content: 'This is unbelievable. After using WEEKEND my business skyrocketed!' },
+      //   { title: 'Vanessa', content: 'This is unbelievable. After using WEEKEND my business skyrocketed!' }
+      // ]
+      items: []
     }
+  },
+  mounted () {
+    axios.get('https://wknd-take-home-challenge-api.herokuapp.com/testimonial')
+      .then(response => {
+        this.items = response.data
+      })
+      .catch(error => {
+        console.log(error)
+      })
   }
 })
 </script>

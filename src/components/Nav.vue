@@ -2,7 +2,7 @@
   <div class="fixed-top">
     <div class="container">
       <div class="media">
-        <div>
+        <div class="img">
           <img src="../assets/nav/bitmap.png">
         </div>
         <div class="media-body  ml-2">
@@ -23,6 +23,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
+.img {
+  cursor: pointer;
+}
+
 .fixed-top {
   height: 67px;
   padding: 17px 0;
@@ -32,7 +36,7 @@ export default {
 .Good-Morning {
   width: 82px;
   height: 14px;
-  font-family: WorkSans;
+  font-family: 'Work Sans';
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -44,7 +48,7 @@ export default {
 .Fellas {
   width: 47px;
   height: 19px;
-  font-family: WorkSans;
+  font-family: 'Work Sans';
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;

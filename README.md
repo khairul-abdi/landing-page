@@ -1,4 +1,10 @@
-# thc-frontend
+# [thc-frontend](https://weekend-frontend.herokuapp.com/)
+
+## [LIVE DEMO](https://weekend-frontend.herokuapp.com/)
+
+### Delivery
+  <!-- ![alt text](https://github.com/khairul-abdi/deliveryApp/blob/master/src/assets/img-screenshot/1.png) -->
+
 
 ## Project setup
 ```

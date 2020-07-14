@@ -7,7 +7,7 @@
         </div>
         <div class="media-body ml-2">
           <p class="Good-Morning">Good Morning</p>
-          <p class="Fellas">Fellas</p>
+          <p class="Fellas">Khairul</p>
         </div>
       </div>
     </div>

@@ -248,13 +248,13 @@ export default {
 }
 
 .vhl-btn-left {
-  margin-left: -95px;
+  margin-left: -70px;
   margin-right: auto;
 }
 
 .vhl-btn-right {
   margin-left: auto;
-  margin-right: -50px;
+  margin-right: -70px;
 }
 
 .vhl-container {

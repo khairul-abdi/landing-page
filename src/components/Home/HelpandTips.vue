@@ -129,8 +129,8 @@ export default {
     }
 
     .space {
-      margin-left: 50px;
-      margin-right: 75px;
+      margin-left: 0;
+      margin-right: 0;
     }
 
   }

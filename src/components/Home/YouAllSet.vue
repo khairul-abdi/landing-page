@@ -23,7 +23,7 @@ export default {
 <style lang="scss" scoped>
 
 .deffiniton {
-  background-color: black;
+  // background-color: black;
 }
 
 .title {
@@ -46,7 +46,7 @@ export default {
   width: 244px;
   height: 325px;
   top: auto;
-  bottom: 51px;
+  bottom: 66px;
 }
 
 p {
@@ -82,7 +82,13 @@ p {
     float: left;
     width: 244px;
     height: 325px;
-    bottom: -555px;
+    bottom: -584px;
+  }
+
+  .deffiniton {
+    background-color: black;
+    height: 600px;
+    margin-top: -22px;
   }
 
 }

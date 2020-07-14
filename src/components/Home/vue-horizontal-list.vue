@@ -235,6 +235,13 @@ export default {
   z-index: 2;
 }
 
+@media screen and (max-width: 575px) {
+  .vhl-btn-left,
+  .vhl-btn-right {
+    display: none;
+  }
+}
+
 .vhl-btn-left:hover,
 .vhl-btn-right:hover {
   cursor: pointer;

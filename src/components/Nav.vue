@@ -5,7 +5,7 @@
         <div class="img">
           <img src="../assets/nav/bitmap.png">
         </div>
-        <div class="media-body  ml-2">
+        <div class="media-body ml-2">
           <p class="Good-Morning">Good Morning</p>
           <p class="Fellas">Fellas</p>
         </div>

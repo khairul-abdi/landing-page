@@ -8,7 +8,7 @@
       <PovandResource />
       <HelpandTips />
       <YouAllSet />
-      <Footer />
+      <Footer class="footer" />
     </div>
   </div>
 </template>
@@ -41,7 +41,7 @@ export default {
 
 .test {
   background-color: black;
-  height: 1473px;
+  height: 1488px;
   width: 100%;
   position: absolute;
 }
